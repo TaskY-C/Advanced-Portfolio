@@ -180,9 +180,10 @@ nav {
 }
 
 #personal-logo {
-    width: 50px;
-    height: 50px;
-    filter: invert(1);
+    width: 70px;
+    height: 70px;
+    background-color:#7A09D7;
+    border-radius: 50%;
 }
 
 .nav__link--list {
@@ -300,7 +301,10 @@ footer {
 }
 
 .footer__logo--img {
-    width: 70px;
+    width: 90px;
+    filter: invert(1);
+    border-radius: 50%;
+    background-color: #85F628; /* its the direct inverse of the purple #7A09D7 */
 }
 
 .footer__social--link, .footer__copyright {
